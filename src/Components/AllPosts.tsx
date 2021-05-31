@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, {useEffect, useState} from 'react';
+import {Link} from 'react-router-dom';
 import sanityClient from '../client';
 
 export default function AllPosts() {
@@ -23,7 +23,7 @@ export default function AllPosts() {
 
     return (
         <div>
-            <h2>Blog Posts</h2>
+            <h2>MoneyLynx Launch</h2>
             <div className="AllPosts">
                 {allPostsData &&
                     allPostsData.map((post, index) => (
