@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "An example app showing how to easily white-label OpenSea and create your own NFT marketplace",
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.10.5",
+    "@sanity/image-url": "^0.140.22",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -12,9 +15,11 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.7",
     "iframe-resizer": "4.2.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.0",
     "typescript": "~3.7.2"
   },

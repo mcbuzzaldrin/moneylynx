@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'VT323', monospace;
+  width: 100%;
+  background-color: black;
 }
 
-.App-logo {
-  height: 1em;
-  pointer-events: none;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 250px;
 }
 
 .App-header {
-  height: 10vh;
+  height: 15vh;
   padding: 0 5vmax;
   display: flex;
   flex-direction: row;
@@ -16,7 +23,25 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
 }
+.App-logo {
+  height: 15vh;
+  width: 15vh;
+  margin: 5% 0 0 2%;
+}
 
+img {
+  margin: auto;
+  height: auto;
+  max-width: 70%;
+}
+.OnePost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.OnePost span {
+  margin-top: 20px;
+}
 .App-main {
   min-height: 100vh;
   left: 0;
@@ -35,10 +60,8 @@
 }
 
 .App-hero {
-  width: 100vw;
-  height: 30vmin;
+  width: 100%;
   min-height: 150px;
-  background-color: #1e7157;
   position: relative;
 
   font-weight: 700;
@@ -71,13 +94,10 @@
   bottom: 0;
   right: 0;
   z-index: 0;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
+  background-image: url("../images/hero.png");
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.6;
 }
 
 @keyframes App-logo-spin {
