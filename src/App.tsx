@@ -1,13 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import AllPosts from './Components/AllPosts';
 import OnePost from './Components/OnePost';
-import { ASSET_URL, CHOSEN_THEME } from './constants'
 import logo from './static/images/logo.png';
 import './static/styles/App.css';
 import footer from './static/images/footer.png';
-import { iframeResizer } from 'iframe-resizer'
-import './static/styles/App.css';
 import Contact from './Components/Contact';
 
 class App extends React.Component {
