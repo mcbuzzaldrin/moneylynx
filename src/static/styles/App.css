@@ -15,7 +15,7 @@ nav {
 }
 
 .App-header {
-  height: 15vh;
+  height: 25vh;
   padding: 0 5vmax;
   display: flex;
   flex-direction: row;
@@ -24,9 +24,9 @@ nav {
   font-size: calc(10px + 2vmin);
 }
 .App-logo {
-  height: 15vh;
-  width: 15vh;
-  margin: 5% 0 0 2%;
+  height: 25vh;
+  width: 40vh;
+  margin: 20% 0 10px 0;
 }
 
 img {
