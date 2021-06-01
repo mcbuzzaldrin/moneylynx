@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React, {useEffect, useState} from 'react';
+import {useParams} from 'react-router-dom';
 import sanityClient from '../client';
 // @ts-ignore
 import BlockContent from '@sanity/block-content-to-react';
@@ -42,6 +42,7 @@ export default function OnePost() {
                 <h2>{postData['title']}</h2>
             </div>
             <img src={urlFor(postData['mainImage']).url()} alt='' />
+            <br></br>
             <span>Instructions: Scan QR Code for payment. </span>
             <div>
                 <BlockContent

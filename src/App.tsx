@@ -22,7 +22,7 @@ class App extends React.Component {
               </nav>
             </header>
             <main className="App-main">
-                <p>Street Lynx family Quality Internet + Urban art dealers</p>
+                <h1>Street Lynx family Quality Internet + Urban art dealers</h1>
                 <Switch>
                     <Route path='/contact-us' component={Contact} />
                     <Route component={AllPosts} path='/' exact />
