@@ -6,7 +6,6 @@ import logo from './static/images/logo.png';
 import './static/styles/App.css';
 import footer from './static/images/footer.png';
 import Contact from './Components/Contact';
-import { SocialIcon } from 'react-social-icons';
 
 class App extends React.Component {
 
