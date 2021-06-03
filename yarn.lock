@@ -10004,6 +10004,7 @@ fsevents@^1.2.7:
     react-dom: ^16.12.0
     react-router-dom: ^5.2.0
     react-scripts: 3.3.0
+    react-social-icons: ^5.4.1
     typescript: ~3.7.2
   languageName: unknown
   linkType: soft
@@ -11939,6 +11940,17 @@ fsevents@^1.2.7:
   bin:
     react-scripts: ./bin/react-scripts.js
   checksum: e4b73898a2afbf5db6e7267e2b27ebd7382f8e9ee2ee1610b41bb77d2ff03ac2fd6049f64badc6300362266f34761e70ff045b7895a86dd6b335c0011a30decb
+  languageName: node
+  linkType: hard
+
+"react-social-icons@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "react-social-icons@npm:5.4.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: 15.x.x || 16.x.x || 17.x.x
+  checksum: 26c68dda5da9b62824d5aff2b8f581f3936bbda888b25f4e428090df985ca471f0b601f8c1fcb213a46fe73490b1d5c51fc4e0db6a1baac25835ef2eabe0a985
   languageName: node
   linkType: hard
 
