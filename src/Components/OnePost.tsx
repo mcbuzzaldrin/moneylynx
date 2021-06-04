@@ -51,7 +51,7 @@ export default function OnePost() {
                     />
             </div>
             <span>Instructions: Scan QR Code for payment. <Link to='/contact-us'>Contact Us</Link> to confirm payment for delivery. </span>
-            <div className='QR-Code'></div>
+            <img className='QR-Code' src='./qrcode.jpg' alt='qrcode' />
         </div>
     );
 };

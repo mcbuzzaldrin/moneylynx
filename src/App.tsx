@@ -7,6 +7,7 @@ import './static/styles/App.css';
 import footer from './static/images/footer.png';
 import Contact from './Components/Contact';
 
+
 class App extends React.Component {
 
   render() {

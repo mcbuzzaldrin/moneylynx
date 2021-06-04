@@ -57,14 +57,7 @@ img {
 .OnePost span {
   margin-top: 20px;
 }
-.QR-Code {
-  background-image: url('../images/qrcode.JPG');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 60vh;
-  width: 40vh;
-  margin: auto;
-}
+
 .App-main {
   min-height: 100vh;
   left: 0;
