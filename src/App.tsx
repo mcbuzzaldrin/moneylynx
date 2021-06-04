@@ -14,7 +14,7 @@ class App extends React.Component {
         <BrowserRouter>
           <div className="App">
             <header className="App-header">
-                <Link to='/'><img src={logo} className="App-logo" alt="logo" /></Link>
+                <Link className='Logo-Container' to='/'><img src={logo} className="App-logo" alt="logo" /></Link>
               <nav>
                   <Link to='/'>Home</Link>
                   <Link to='/contact-us'>Contact Us</Link>
@@ -22,7 +22,7 @@ class App extends React.Component {
               </nav>
             </header>
             <main className="App-main">
-                <h1>Street Lynx family Quality Internet + Urban art dealers</h1>
+                <h1>Money Lynx DOS (DISC OPERATING SYSTEM)</h1>
                 <Switch>
                     <Route path='/contact-us' component={Contact} />
                     <Route component={AllPosts} path='/' exact />

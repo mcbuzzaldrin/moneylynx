@@ -15,18 +15,24 @@ nav {
 }
 
 .App-header {
-  height: 25vh;
-  padding: 0 5vmax;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 12%;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
 }
+
+.Logo-Container {
+  display: flex;
+  justify-items: flex-start;
+  width: 30%;
+  height: 100%;
+}
 .App-logo {
-  height: 25vh;
-  width: 40vh;
-  margin: 20% 0 10px 0;
+  height: auto;
+  width: auto;
 }
 
 img {

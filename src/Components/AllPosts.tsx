@@ -23,7 +23,7 @@ export default function AllPosts() {
 
     return (
         <div>
-            <h2>MoneyLynx Launch</h2>
+            <h2>All works available Bitcoin Conference June 4-5 2021</h2>
             <div className="AllPosts">
                 {allPostsData &&
                     allPostsData.map((post, index) => (

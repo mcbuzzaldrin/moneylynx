@@ -11,6 +11,7 @@ export default class Contact extends React.Component{
                 <h3>For access to enter the crypto space, Moneylynx provides the invaluable service of onboarding artists to Non-Fungible Tokens and showcasing their talent to a wider digital audience.</h3>
                 <br></br>
                 <a href='https://www.instagram.com/moneylynx/' style={{margin: 'auto'}}>Instagram: @moneylynx <SocialIcon url='https://www.instagram.com/moneylynx/' /></a>
+                <a href='https://wa.me/15083405784' style={{margin: 'auto'}}>WhatsApp: <SocialIcon url='https://wa.me/15083405784' network='whatsapp' /> </a>
             </div>
                 );
     }
