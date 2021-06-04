@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, Link } from 'react-router-dom';
 import sanityClient from '../client';
 // @ts-ignore
 import qrCode  from '../static/images/qrcode.JPG'
@@ -52,7 +52,7 @@ export default function OnePost() {
                     dataset={sanityClient.clientConfig.dataset}
                     />
             </div>
-            <span>Instructions: Scan QR Code for payment. </span>
+            <span>Instructions: Scan QR Code for payment. <Link to='/contact-us'>Contact Us</Link> to confirm payment for delivery. </span>
             <img src={qrCode} alt='QR Code'/>
         </div>
     );
