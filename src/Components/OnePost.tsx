@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {useParams} from 'react-router-dom';
 import sanityClient from '../client';
 // @ts-ignore
+import qrCode  from '../static/images/qrcode.JPG'
+// @ts-ignore
 import BlockContent from '@sanity/block-content-to-react';
 import imageUrlBuilder from '@sanity/image-url';
 
@@ -43,7 +45,6 @@ export default function OnePost() {
             </div>
             <img src={urlFor(postData['mainImage']).url()} alt='' />
             <br></br>
-            <span>Instructions: Scan QR Code for payment. </span>
             <div>
                 <BlockContent
                     blocks={postData['body']}
@@ -51,6 +52,8 @@ export default function OnePost() {
                     dataset={sanityClient.clientConfig.dataset}
                     />
             </div>
+            <span>Instructions: Scan QR Code for payment. </span>
+            <img src={qrCode} alt='QR Code'/>
         </div>
     );
 };
