@@ -59,8 +59,10 @@ img {
 }
 .QR-Code {
   background-image: url('../images/qrcode.JPG');
-  height: 600px;
-  width: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  width: 40vh;
   margin: auto;
 }
 .App-main {
